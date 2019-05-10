@@ -1,9 +1,16 @@
 <script>
   export default {
+    props: {
+      currentQueryParams: {
+        type: Object,
+        default: () => ({})
+      }
+    },
+
     metaInfo: function () {
       const links = []
       const utmKeys = Object
-        .keys(this.$router.currentRoute.query || {})
+        .keys(this.currentQueryParams || {})
         .filter(k => k.startsWith('utm_'))
 
       if (utmKeys.length > 0) {
