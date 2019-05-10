@@ -532,6 +532,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 
   play_level:
 #    back_to_map: "Back to Map"
+back_to_map: "Haritaya geri dön"
 #    directions: "Directions"
 #    edit_level: "Edit Level"
 #    keep_learning: "Keep Learning"
@@ -724,6 +725,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 #    function: "Function"
 #    vector: "Vector"
 #    date: "Date"
+date: "Tarih"
 #    jquery: "jQuery"
 #    json: "JSON"
 #    number: "Number"
@@ -822,6 +824,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 
 #  subscribe_for_gems:
 #    prompt_title: "Not Enough Gems!"
+
 #    prompt_body: "Subscribe to Premium to get gems and access to even more levels!"
 
 #  earn_gems:
@@ -1025,6 +1028,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 
   about:
 #    learn_more: "Learn More"
+learn_more: "Daha fazla öğren"
 #    main_title: "If you want to learn to program, you need to write (a lot of) code."
 #    main_description: "At CodeCombat, our job is to make sure you're doing that with a smile on your face."
     mission_link: "Görev"
@@ -1123,6 +1127,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 #    gd1_description: "uses syntax students are already familiar with to show them how to build and share their own playable game levels."
 #    see_an_example_project: "see an example project"
 #    get_started_today: "Get started today!"
+get_started_today: "Bugün başla!"
 #    want_all_the_courses: "Want all the courses? Request information on our Full Licenses."
 #    compare_license_types: "Compare License Types:"
 #    cs: "Computer Science"
@@ -1314,6 +1319,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 
 #  clans:
 #    clan: "Clan"
+clan: "Takım"
 #    clans: "Clans"
 #    new_name: "New clan name"
 #    new_description: "New clan description"
@@ -1341,6 +1347,7 @@ module.exports = nativeDescription: "Türkçe", englishDescription: "Turkish", t
 #    invite_1: "Invite:"
 #    invite_2: "*Invite players to this Clan by sending them this link."
 #    members: "Members"
+members: "Üyeler"
 #    progress: "Progress"
 #    not_started_1: "not started"
 #    started_1: "started"
