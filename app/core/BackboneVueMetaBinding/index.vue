@@ -36,7 +36,7 @@
       const currentUrl = new URL(window.location.href)
       const currentQueryParams = {}
 
-      currentUrl.searchParams.forEach((k, v) => {
+      new URLSearchParams(currentUrl.search).forEach((v, k) => {
         currentQueryParams[k] = v
       })
 
